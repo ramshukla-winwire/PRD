@@ -12,7 +12,7 @@
 
 ## 🎬 Demo
 
-[Live Demo](http://localhost:8501) | [Video Demo](#) | [Screenshots](#)
+[Live Demo](http://localhost:8501)
 
 ## 🚀 Quick Start
 
@@ -228,3 +228,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 **Made with ❤️ for Groq Hackathon 2025**
 
 *Transforming product requirements from hours to seconds* ⚡
+
