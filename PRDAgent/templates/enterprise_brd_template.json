@@ -1,0 +1,134 @@
+{
+  "template_name": "Enterprise BRD Template",
+  "template_id": "enterprise_brd",
+  "description": "Formal enterprise Business Requirements Document template matching government/enterprise format extracted from actual BRD documents",
+  "use_case": "Government agencies, large corporations, formal enterprise projects requiring exact BRD format compliance",
+  "sections": [
+    {
+      "section_id": "document_edit_history",
+      "title": "Document Edit History",
+      "required": true,
+      "description": "Document version control and edit history tracking",
+      "subsections": [
+        "Version Number",
+        "Date",
+        "Author",
+        "Description of Changes",
+        "Reviewer/Approver"
+      ]
+    },
+    {
+      "section_id": "reference_documents",
+      "title": "Reference Documents",
+      "required": true,
+      "description": "Supporting documents and policy references",
+      "subsections": [
+        "Policy References",
+        "Related Documents",
+        "Standards and Guidelines",
+        "External References"
+      ]
+    },
+    {
+      "section_id": "section_1_business_outcomes",
+      "title": "Section 1: Business Outcomes",
+      "required": true,
+      "description": "Business context and high-level requirements",
+      "subsections": [
+        "Overview",
+        "Business Driver",
+        "Requirement Summary", 
+        "General Scope",
+        "User Stories"
+      ]
+    },
+    {
+      "section_id": "section_2_requirements_details",
+      "title": "Section 2: Requirements Details",
+      "required": true,
+      "description": "Detailed requirements specification and analysis",
+      "subsections": [
+        "Project Purpose",
+        "Processes in Scope",
+        "Business Process",
+        "Current Process (As-Is) Flow Diagram",
+        "Requested Process (To-Be) Flow Diagram",
+        "General Scoping Questions",
+        "Impact Assessment",
+        "Management of Change",
+        "Performance/System Load Impact Assessment",
+        "Performance",
+        "System Load - Users",
+        "System Load - Transactions",
+        "Functional Requirements",
+        "Business Areas Impacted",
+        "Requirements Traceability Matrix"
+      ]
+    },
+    {
+      "section_id": "section_3_testing_needs",
+      "title": "Section 3: Testing Needs",
+      "required": true,
+      "description": "Testing strategy and scenarios",
+      "subsections": [
+        "Functional Test Scenarios",
+        "Test Acceptance Criteria",
+        "Testing Timeline",
+        "Testing Resources"
+      ]
+    },
+    {
+      "section_id": "section_4_itaas_assessment",
+      "title": "Section 4: ITaaS Assessment",
+      "required": true,
+      "description": "IT assessment and resource requirements",
+      "subsections": [
+        "Impacted IT Systems",
+        "BRIM Technical Teams Required",
+        "Pre-requisites",
+        "Estimated Timeframe"
+      ]
+    }
+  ],
+  "formatting": {
+    "style": "formal_government",
+    "tone": "professional",
+    "length": "comprehensive",
+    "include_diagrams": true,
+    "include_tables": true,
+    "document_structure": {
+      "use_numbered_sections": true,
+      "section_numbering": "hierarchical",
+      "include_toc": true,
+      "include_document_control": true,
+      "formal_language": true,
+      "compliance_focused": true,
+      "government_format": true
+    }
+  },
+  "special_instructions": {
+    "format_requirements": [
+      "Follow exact government BRD format structure",
+      "Use formal business language appropriate for government/enterprise",
+      "Include document control and version management at top",
+      "Structure with numbered sections (Section 1, Section 2, etc.)",
+      "Include flow diagrams for current and requested processes",
+      "Provide detailed business driver with policy references",
+      "Include comprehensive requirements traceability matrix",
+      "Follow enterprise documentation and governance standards"
+    ],
+    "content_guidelines": [
+      "Begin with document edit history and reference documents",
+      "Section 1 should focus on business outcomes and high-level scope", 
+      "Section 2 should contain detailed requirements and process flows",
+      "Include both as-is and to-be process diagrams",
+      "Provide thorough impact assessment and change management",
+      "Include specific performance and system load considerations",
+      "Section 3 should detail testing needs and scenarios",
+      "Section 4 should assess IT systems and technical requirements",
+      "Use tables for requirements specification and traceability",
+      "Reference specific policies and procedures where applicable",
+      "Ensure measurable acceptance criteria for all requirements"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+pydantic
+redis==6.2.0
+streamlit
+requests
+httpx
+PyPDF2
+python-docx
+spacy
+groq

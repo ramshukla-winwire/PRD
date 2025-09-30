@@ -1,0 +1,124 @@
+{
+  "template_name": "Standard PRD Template",
+  "template_id": "standard",
+  "description": "A comprehensive, industry-standard PRD template suitable for most products and features",
+  "use_case": "General purpose product development, suitable for web apps, mobile apps, and software features",
+  "sections": [
+    {
+      "section_id": "executive_summary",
+      "title": "Executive Summary",
+      "required": true,
+      "description": "High-level overview of the product/feature",
+      "subsections": [
+        "Problem Statement",
+        "Solution Overview", 
+        "Key Benefits",
+        "Success Metrics"
+      ]
+    },
+    {
+      "section_id": "product_overview",
+      "title": "Product Overview",
+      "required": true,
+      "description": "Detailed product description and context",
+      "subsections": [
+        "Product Vision",
+        "Product Goals",
+        "Target Audience",
+        "Market Context"
+      ]
+    },
+    {
+      "section_id": "user_stories",
+      "title": "User Stories & Requirements",
+      "required": true,
+      "description": "Functional requirements and user stories",
+      "subsections": [
+        "User Personas",
+        "User Journeys",
+        "Functional Requirements",
+        "Acceptance Criteria"
+      ]
+    },
+    {
+      "section_id": "technical_requirements",
+      "title": "Technical Requirements",
+      "required": true,
+      "description": "Technical specifications and constraints",
+      "subsections": [
+        "System Architecture",
+        "Technology Stack",
+        "Performance Requirements",
+        "Security Requirements",
+        "Integration Requirements"
+      ]
+    },
+    {
+      "section_id": "design_ux",
+      "title": "Design & User Experience",
+      "required": false,
+      "description": "UI/UX specifications and design guidelines",
+      "subsections": [
+        "Design Principles",
+        "Wireframes & Mockups",
+        "User Interface Specifications",
+        "Accessibility Requirements"
+      ]
+    },
+    {
+      "section_id": "success_metrics",
+      "title": "Success Metrics & KPIs",
+      "required": true,
+      "description": "How success will be measured",
+      "subsections": [
+        "Key Performance Indicators",
+        "Success Criteria",
+        "Measurement Methods",
+        "Reporting & Analytics"
+      ]
+    },
+    {
+      "section_id": "timeline_milestones",
+      "title": "Timeline & Milestones",
+      "required": true,
+      "description": "Project timeline and key deliverables",
+      "subsections": [
+        "Project Phases",
+        "Key Milestones",
+        "Delivery Timeline",
+        "Dependencies"
+      ]
+    },
+    {
+      "section_id": "risks_assumptions",
+      "title": "Risks & Assumptions",
+      "required": true,
+      "description": "Potential risks and underlying assumptions",
+      "subsections": [
+        "Key Assumptions",
+        "Risk Assessment",
+        "Mitigation Strategies",
+        "Contingency Plans"
+      ]
+    },
+    {
+      "section_id": "appendix",
+      "title": "Appendix",
+      "required": false,
+      "description": "Supporting documentation and references",
+      "subsections": [
+        "Research & Analysis",
+        "Competitive Analysis",
+        "Technical Specifications",
+        "References"
+      ]
+    }
+  ],
+  "formatting": {
+    "style": "formal",
+    "tone": "professional",
+    "length": "comprehensive",
+    "include_diagrams": true,
+    "include_tables": true
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "template_name": "Agile Feature PRD Template",
+  "template_id": "agile_feature",
+  "description": "A lightweight template for individual features in agile development cycles",
+  "use_case": "Individual features, sprint planning, agile teams, iterative development",
+  "sections": [
+    {
+      "section_id": "feature_overview",
+      "title": "Feature Overview",
+      "required": true,
+      "description": "Brief description of the feature",
+      "subsections": [
+        "Feature Summary",
+        "User Problem",
+        "Proposed Solution",
+        "Success Criteria"
+      ]
+    },
+    {
+      "section_id": "user_stories",
+      "title": "User Stories",
+      "required": true,
+      "description": "Feature requirements as user stories",
+      "subsections": [
+        "Epic Description",
+        "User Stories",
+        "Acceptance Criteria",
+        "Definition of Done"
+      ]
+    },
+    {
+      "section_id": "design_specs",
+      "title": "Design Specifications",
+      "required": true,
+      "description": "UI/UX and technical design",
+      "subsections": [
+        "User Flow",
+        "Wireframes/Mockups",
+        "Technical Design",
+        "API Specifications"
+      ]
+    },
+    {
+      "section_id": "implementation",
+      "title": "Implementation Details",
+      "required": true,
+      "description": "How the feature will be built",
+      "subsections": [
+        "Technical Approach",
+        "Dependencies",
+        "Effort Estimation",
+        "Testing Strategy"
+      ]
+    },
+    {
+      "section_id": "metrics_validation",
+      "title": "Metrics & Validation",
+      "required": true,
+      "description": "How success will be measured",
+      "subsections": [
+        "Key Metrics",
+        "Analytics Plan",
+        "A/B Testing",
+        "Validation Approach"
+      ]
+    },
+    {
+      "section_id": "launch_plan",
+      "title": "Launch Plan",
+      "required": false,
+      "description": "Feature rollout strategy",
+      "subsections": [
+        "Rollout Strategy",
+        "Feature Flags",
+        "Communication Plan",
+        "Support Considerations"
+      ]
+    }
+  ],
+  "formatting": {
+    "style": "agile",
+    "tone": "collaborative",
+    "length": "focused",
+    "include_diagrams": true,
+    "include_tables": false
+  }
+}

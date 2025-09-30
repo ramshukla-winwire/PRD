@@ -1,0 +1,36 @@
+Now let's CUT THROUGH PRIORITIZATION to focus on what matters most and what to tackle first.
+
+Please provide information about:
+
+1. **Priority Framework:**
+   - What criteria will you use to prioritize features/requirements?
+   - Consider: Impact vs. Effort, Customer value, Business value, Strategic alignment
+   - What is the relative importance of different customer segments?
+
+2. **Must-Have vs. Nice-to-Have:**
+   - Which features are absolutely critical for launch (MVP)?
+   - Which features can be deferred to later versions?
+   - What would make the product unusable if missing?
+
+3. **Resource Constraints:**
+   - What are the timeline constraints for launch?
+   - What budget or resource limitations exist?
+   - What technical constraints affect prioritization?
+
+4. **Risk Assessment:**
+   - Which features carry the highest risk (technical, market, business)?
+   - Which features are safest to implement first?
+   - What assumptions need to be validated early?
+
+5. **Stakeholder Priorities:**
+   - What are the different priorities from various stakeholders?
+   - How do you resolve conflicts between different priorities?
+   - Who has final decision-making authority?
+
+6. **Sequencing Strategy:**
+   - What is the logical order for building features?
+   - What dependencies exist between features?
+   - What makes sense to build and learn from first?
+
+**Response Format:**
+Please provide a prioritized list with clear rationale for why certain features/needs rank higher than others. Include timeline implications.

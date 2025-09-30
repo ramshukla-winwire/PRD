@@ -1,0 +1,117 @@
+{
+  "template_name": "Mobile App PRD Template",
+  "template_id": "mobile_app",
+  "description": "Specialized template for mobile applications with platform-specific considerations",
+  "use_case": "Mobile apps, iOS/Android development, mobile-first products",
+  "sections": [
+    {
+      "section_id": "app_overview",
+      "title": "App Overview",
+      "required": true,
+      "description": "High-level app concept and goals",
+      "subsections": [
+        "App Concept",
+        "Target Audience",
+        "Value Proposition",
+        "App Store Category"
+      ]
+    },
+    {
+      "section_id": "platform_strategy",
+      "title": "Platform Strategy",
+      "required": true,
+      "description": "Platform-specific considerations",
+      "subsections": [
+        "Platform Selection (iOS/Android/Cross-platform)",
+        "Platform-Specific Features",
+        "Device Compatibility",
+        "OS Version Support"
+      ]
+    },
+    {
+      "section_id": "user_experience",
+      "title": "User Experience Design",
+      "required": true,
+      "description": "Mobile UX specifications",
+      "subsections": [
+        "User Journey Maps",
+        "Navigation Design",
+        "Touch Interactions",
+        "Accessibility Features",
+        "Responsive Design"
+      ]
+    },
+    {
+      "section_id": "features_functionality",
+      "title": "Features & Functionality",
+      "required": true,
+      "description": "Core app features and capabilities",
+      "subsections": [
+        "Core Features",
+        "Device Integration (Camera, GPS, etc.)",
+        "Offline Functionality",
+        "Push Notifications",
+        "Social Features"
+      ]
+    },
+    {
+      "section_id": "technical_requirements",
+      "title": "Technical Requirements",
+      "required": true,
+      "description": "Mobile-specific technical specs",
+      "subsections": [
+        "Architecture (Native/Hybrid/Cross-platform)",
+        "Backend Services",
+        "Data Storage",
+        "Performance Requirements",
+        "Battery Optimization"
+      ]
+    },
+    {
+      "section_id": "monetization_analytics",
+      "title": "Monetization & Analytics",
+      "required": true,
+      "description": "App business model and tracking",
+      "subsections": [
+        "Monetization Strategy",
+        "In-App Purchases",
+        "Analytics Implementation",
+        "User Engagement Metrics",
+        "Revenue Tracking"
+      ]
+    },
+    {
+      "section_id": "launch_distribution",
+      "title": "Launch & Distribution",
+      "required": true,
+      "description": "App store and marketing strategy",
+      "subsections": [
+        "App Store Optimization",
+        "Launch Strategy",
+        "Marketing Plan",
+        "User Acquisition",
+        "Post-Launch Support"
+      ]
+    },
+    {
+      "section_id": "compliance_security",
+      "title": "Compliance & Security",
+      "required": true,
+      "description": "Mobile security and compliance",
+      "subsections": [
+        "Data Privacy (GDPR, CCPA)",
+        "App Store Guidelines",
+        "Security Measures",
+        "Permissions Management",
+        "Child Safety (if applicable)"
+      ]
+    }
+  ],
+  "formatting": {
+    "style": "modern",
+    "tone": "user-focused",
+    "length": "detailed",
+    "include_diagrams": true,
+    "include_tables": true
+  }
+}

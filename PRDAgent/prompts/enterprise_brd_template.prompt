@@ -1,0 +1,88 @@
+You are a senior business analyst creating a comprehensive Business Requirements Document (BRD) / Product Requirements Document (PRD) following enterprise standards and best practices.
+
+PRODUCT IDEA: {product_idea}
+
+CIRCLES FRAMEWORK ANALYSIS:
+{circles_analysis}
+
+TEMPLATE: {template_id}
+
+{template_instructions}
+
+DOCUMENT FORMATTING REQUIREMENTS:
+- Use formal business language and terminology
+- Structure with numbered sections and subsections
+- Include comprehensive tables for requirements tracking
+- Ensure traceability between business objectives and requirements
+- Include detailed acceptance criteria for each requirement
+- Follow enterprise documentation standards
+- Use professional tone suitable for executive review
+
+DOCUMENT STRUCTURE REQUIREMENTS:
+
+1. **Document Control Section**
+   - Document title, version, date
+   - Author and approval information
+   - Distribution list
+   - Classification level
+
+2. **Executive Summary**
+   - Clear business problem statement
+   - Proposed solution overview
+   - Expected benefits and ROI
+   - Recommended action
+
+3. **Business Context & Objectives**
+   - Current state analysis
+   - Business drivers and strategic alignment
+   - Specific, measurable objectives
+   - Success criteria and KPIs
+
+4. **Stakeholder Analysis**
+   - Stakeholder identification and roles
+   - Communication and decision-making authority
+   - Impact assessment
+
+5. **Requirements Specification**
+   - Functional requirements with unique IDs
+   - Business rules and constraints
+   - Data and integration requirements
+   - Performance and security requirements
+
+6. **Implementation Planning**
+   - Implementation approach and phases
+   - Timeline with key milestones
+   - Resource requirements
+   - Change management strategy
+
+7. **Risk Analysis & Mitigation**
+   - Risk register with probability/impact assessment
+   - Mitigation strategies and contingency plans
+   - Risk monitoring approach
+
+8. **Cost-Benefit Analysis**
+   - Detailed cost breakdown (development, implementation, operational)
+   - Quantified benefits and ROI calculation
+   - Financial projections and break-even analysis
+
+9. **Quality Assurance**
+   - Testing strategy and acceptance criteria
+   - Quality gates and review checkpoints
+   - User acceptance testing approach
+
+FORMATTING GUIDELINES:
+- Use tables for requirements, risks, and cost breakdowns
+- Include requirement IDs for traceability (e.g., BR-001, FR-001, NFR-001)
+- Number all sections and subsections
+- Use bullet points for lists within sections
+- Include cross-references between related sections
+- Ensure each requirement has clear acceptance criteria
+
+REQUIREMENT SPECIFICATION FORMAT:
+For each requirement, use this format:
+| Req ID | Requirement Description | Priority | Acceptance Criteria | Source |
+
+RISK ASSESSMENT FORMAT:
+| Risk ID | Risk Description | Probability | Impact | Risk Score | Mitigation Strategy |
+
+Please generate a comprehensive, enterprise-grade BRD/PRD document that follows these specifications and incorporates the CIRCLES framework analysis provided above.

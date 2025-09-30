@@ -1,0 +1,258 @@
+# Product Requirements Document (PRD)
+## {product_name}
+
+---
+
+> 📋 **Document Status:** {document_status}  
+> 🏷️ **Document Type:** Product Requirements Document  
+> 📅 **Creation Date:** {generation_date}  
+> 🆔 **Document ID:** PRD-{session_id}  
+
+---
+
+## 📋 Instructions
+
+> **ℹ️ Document Workflow Instructions**
+> 
+> **Section 1:** The business owner and sponsor complete Section 1 of this PRD. This will inform different teams of the business outcome expected.
+> 
+> **Section 2:** The Cross-Operations Leads (quoting, subscriptions, order management, supply chain, finance, etc.) will complete Section 2 of this PRD to provide additional information concerning operations and compliance needs.
+> 
+> **Section 3:** The testing lead, with input from operations teams, completes section 3 which will specify the UAT testing needs and duration that will be required and any other testing requests that should be factored into the overall planning.
+> 
+> **Section 4:** Teams will validate the BRD for completeness and perform an initial assessment of feasibility and accordingly may request Sections 1, 2 or 3 to be updated. Once the BRD has been validated, Teams will complete section 4 to identify teams and assets that will be required to design, build & implement the solution.
+> 
+> **Reference:** The final version of the PRD will be used as the final locked scope for planning purposes. Additional changes post scope lock will require change requests which may need to be planned for a subsequent release and/or change the timeline for delivery.
+
+---
+
+## 1. 🎯 Context
+
+{situation_context}
+
+### 📖 Background
+{background_analysis}
+
+### 🏢 Market Context
+{market_context}
+
+### 💼 Business Context
+{business_context}
+
+### 🔧 Technical Context
+{technical_context}
+
+---
+
+## 2. 🎭 Intent
+
+{intent_statement}
+
+### 🎯 Business Goals
+{business_goals}
+
+### 🌟 Success Vision
+{success_vision}
+
+---
+
+## 3. 📋 Requirements
+
+### 🎯 Target Customers
+{customer_description}
+
+#### 👥 Primary Customer Segments
+
+| Persona | Demographics | Primary Goals | Pain Points | Use Cases | Success Metrics |
+|---------|-------------|---------------|-------------|-----------|-----------------|
+{customer_personas_table}
+
+#### 🌐 Customer Context
+{customer_context}
+
+#### 🎯 Stakeholder Matrix
+
+| Stakeholder | Role | Influence Level | Interest Level | Communication Frequency | Key Concerns |
+|-------------|------|----------------|----------------|------------------------|--------------|
+{stakeholder_matrix_table}
+
+### ⚙️ Functional Requirements
+{functional_requirements}
+
+#### 📊 Requirements Breakdown Table
+
+> 💡 **Guidelines for Requirements:**
+> - Function requirements should be organized in the sequence of the L2C value chain.
+> - Mockups should be provided for UX/UI changes. Mockups can be embedded inline in functional requirement. If the mockups are extensive, an attachment can be referenced.
+> - Guidance on how to write good functional requirements can be found [here](#).
+> - Guidance on how to write good user stories can be found [here](#).
+
+| Req ID | Area | MVP (Y/N) | Priority | Functional Requirement | User Story | Acceptance Criteria | Owner | Tester | Effort Estimate |
+|--------|------|-----------|----------|------------------------|------------|-------------------|-------|--------|----------------|
+{requirements_table_rows}
+
+#### 🎯 Feature Prioritization Matrix
+
+| Feature | Business Value | Technical Effort | Risk Level | Priority Score | Release Phase | Dependencies |
+|---------|----------------|------------------|------------|----------------|---------------|--------------|
+{feature_prioritization_table}
+
+### 🔧 Non-Functional Requirements
+
+#### ⚡ Performance & Scalability
+{performance_requirements}
+
+#### 🔒 Security & Compliance
+{security_requirements}
+
+#### 🏗️ Technical Requirements
+{scalability_requirements}
+
+### Optional/Nice-to-Have Features
+
+#### Feature Categories
+{optional_features}
+
+#### Future Considerations
+- [ ] Telemetry
+- [ ] Credit/Debits
+- [ ] Sales/Partner Compensation  
+- [ ] Returns
+- [ ] Cancellations
+- [ ] Other
+
+### Out of Scope
+{out_of_scope}
+
+---
+
+## 4. 📊 Criteria for Success
+
+### 🎯 Key Performance Indicators (KPIs)
+
+| Metric Category | Metric Name | Current State | Target Value | Measurement Method | Timeline | Owner | Status |
+|----------------|-------------|---------------|--------------|-------------------|----------|-------|--------|
+{success_metrics_table}
+
+### ✅ Acceptance Criteria
+{acceptance_criteria}
+
+#### 🎯 User Acceptance Testing (UAT) Criteria
+
+| Test Scenario | User Role | Expected Outcome | Pass Criteria | Priority | Tester | Status |
+|---------------|-----------|------------------|---------------|----------|--------|--------|
+{uat_criteria_table}
+
+### 📈 Performance Targets
+
+| Performance Area | Current Performance | Target Performance | Measurement Method | Validation Approach |
+|------------------|-------------------|-------------------|-------------------|-------------------|
+{performance_targets_table}
+
+### 🏆 Success Indicators
+- [ ] User adoption rate meets target threshold
+- [ ] Performance benchmarks achieved
+- [ ] Quality gates passed
+- [ ] Stakeholder approval obtained
+- [ ] Business objectives met
+
+#### 📊 Success Tracking Dashboard
+
+| KPI | Frequency | Target | Yellow Threshold | Red Threshold | Action Required |
+|-----|-----------|---------|------------------|---------------|-----------------|
+{success_tracking_table}
+
+---
+
+## 5. 🚀 Launch Plan
+
+### 📋 Implementation Phases
+{implementation_phases}
+
+### 🎯 MVP Definition
+> **Minimum Viable Product Scope**
+{mvp_definition}
+
+### ⏱️ Timeline & Milestones
+
+| Phase | Duration | Key Deliverables | Dependencies | Success Criteria | Resources Required | Risk Level |
+|-------|----------|------------------|--------------|------------------|-------------------|------------|
+{timeline_table}
+
+#### 🎯 Resource Allocation
+
+| Resource Type | Required | Available | Gap | Procurement Plan | Cost Estimate |
+|---------------|----------|-----------|-----|------------------|---------------|
+{resource_allocation_table}
+
+### 👥 Resource Requirements
+{resource_requirements}
+
+### ⚠️ Risk Mitigation
+
+#### 🚨 Risk Assessment Matrix
+
+| Risk ID | Risk Description | Category | Impact | Probability | Risk Score | Mitigation Strategy | Contingency Plan | Owner | Status |
+|---------|------------------|----------|--------|-------------|------------|-------------------|------------------|-------|--------|
+{risk_assessment_table}
+
+---
+
+## 6. 📈 Evaluation & Future Iterations
+
+### 📊 Monitoring Strategy
+{monitoring_strategy}
+
+### 💬 Feedback Mechanisms
+{feedback_mechanisms}
+
+#### Feedback Channels
+- [ ] User surveys and interviews
+- [ ] Analytics and usage data
+- [ ] Stakeholder reviews
+- [ ] Performance monitoring
+- [ ] Support tickets analysis
+
+### 🔮 Future Enhancements
+{future_enhancements}
+
+### 📋 Success Criteria Review
+{success_review}
+
+#### Review Schedule
+| Review Type | Frequency | Participants | Success Criteria |
+|-------------|-----------|--------------|------------------|
+| Weekly | Ongoing | Development Team | Sprint goals met |
+| Monthly | Monthly | Stakeholders | Milestone completion |
+| Quarterly | Quarterly | Leadership | Business objectives |
+
+---
+
+## 📚 Document Edit History
+
+| Version | Date | Additions/Modifications | Prepared By/Revised By |
+|---------|------|------------------------|------------------------|
+| 1.0 | {generation_date} | Initial Draft | PRD Agent |
+{edit_history_rows}
+
+---
+
+## 📖 Reference Documents
+
+| Version | PRD/Description | Location | Status (done previously or done in conjunction) |
+|---------|-----------------|----------|------------------------------------------------|
+| 1.0 | Master Requirements | Internal Repository | Define |
+{reference_documents_rows}
+
+---
+
+## 📎 Attachments
+{attachments}
+
+{appendix_section}
+
+---
+
+*Generated by PRD Agent on {generation_date}*  
+*Session ID: {session_id}*  
+*Document Version: {document_version}*

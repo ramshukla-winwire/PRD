@@ -1,0 +1,26 @@
+# Virtual Environment
+venv1/
+venv1/*
+
+# Application Data Files
+*.zip
+data/
+*.json
+!**/templates/*.json
+!**/templates/**/*.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

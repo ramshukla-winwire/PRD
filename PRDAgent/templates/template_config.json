@@ -1,0 +1,166 @@
+{
+  "template_selection_rules": {
+    "description": "Rules for automatically selecting the best template based on user requirements",
+    "rules": [
+      {
+        "condition": {
+          "document_type": "brd"
+        },
+        "template": "enterprise_brd",
+        "priority": 11,
+        "description": "Business Requirements Documents use formal BRD template"
+      },
+      {
+        "condition": {
+          "industry": "government"
+        },
+        "template": "enterprise_brd",
+        "priority": 10,
+        "description": "Government projects require formal BRD format"
+      },
+      {
+        "condition": {
+          "product_type": "mobile_app"
+        },
+        "template": "mobile_app",
+        "priority": 10,
+        "description": "Mobile app projects get mobile-specific template"
+      },
+      {
+        "condition": {
+          "organization_size": "enterprise"
+        },
+        "template": "enterprise_brd",
+        "priority": 9,
+        "description": "Enterprise organizations need comprehensive documentation"
+      },
+      {
+        "condition": {
+          "complexity": "complex"
+        },
+        "template": "enterprise_brd",
+        "priority": 8,
+        "description": "Complex projects need detailed enterprise template"
+      },
+      {
+        "condition": {
+          "development_style": "agile"
+        },
+        "template": "agile_feature",
+        "priority": 6,
+        "description": "Agile teams use feature-focused template"
+      },
+      {
+        "condition": {
+          "product_type": "feature"
+        },
+        "template": "agile_feature",
+        "priority": 6,
+        "description": "Individual features use agile feature template"
+      },
+      {
+        "condition": {
+          "scope": "mvp"
+        },
+        "template": "agile_feature",
+        "priority": 5,
+        "description": "MVP scope projects use agile approach"
+      }
+    ],
+    "default_template": "standard"
+  },
+  "requirement_options": {
+    "document_type": {
+      "description": "Type of requirements document needed",
+      "options": [
+        {"value": "prd", "label": "Product Requirements Document"},
+        {"value": "brd", "label": "Business Requirements Document"},
+        {"value": "frd", "label": "Functional Requirements Document"},
+        {"value": "srs", "label": "Software Requirements Specification"},
+        {"value": "other", "label": "Other Document Type"}
+      ]
+    },
+    "product_type": {
+      "description": "Type of product being developed",
+      "options": [
+        {"value": "web_app", "label": "Web Application"},
+        {"value": "mobile_app", "label": "Mobile Application"},
+        {"value": "desktop_app", "label": "Desktop Application"},
+        {"value": "api_service", "label": "API/Service"},
+        {"value": "platform", "label": "Platform/Infrastructure"},
+        {"value": "feature", "label": "Product Feature"},
+        {"value": "integration", "label": "System Integration"},
+        {"value": "other", "label": "Other"}
+      ]
+    },
+    "development_style": {
+      "description": "Development methodology and approach",
+      "options": [
+        {"value": "agile", "label": "Agile/Scrum"},
+        {"value": "lean", "label": "Lean Startup"},
+        {"value": "waterfall", "label": "Waterfall"},
+        {"value": "kanban", "label": "Kanban"},
+        {"value": "hybrid", "label": "Hybrid Approach"},
+        {"value": "other", "label": "Other"}
+      ]
+    },
+    "organization_size": {
+      "description": "Size and type of organization",
+      "options": [
+        {"value": "startup", "label": "Startup (1-20 people)"},
+        {"value": "small", "label": "Small Company (21-100 people)"},
+        {"value": "medium", "label": "Medium Company (101-500 people)"},
+        {"value": "large", "label": "Large Company (501-1000 people)"},
+        {"value": "enterprise", "label": "Enterprise (1000+ people)"},
+        {"value": "government", "label": "Government/Public Sector"},
+        {"value": "nonprofit", "label": "Non-profit Organization"}
+      ]
+    },
+    "complexity": {
+      "description": "Project complexity level",
+      "options": [
+        {"value": "simple", "label": "Simple (Basic functionality, few integrations)"},
+        {"value": "moderate", "label": "Moderate (Multiple features, some integrations)"},
+        {"value": "complex", "label": "Complex (Many features, extensive integrations)"},
+        {"value": "enterprise", "label": "Enterprise-level (Mission-critical, highly regulated)"}
+      ]
+    },
+    "scope": {
+      "description": "Project scope and timeline",
+      "options": [
+        {"value": "mvp", "label": "MVP (Minimum Viable Product)"},
+        {"value": "v1", "label": "Version 1.0 (Full featured initial release)"},
+        {"value": "enhancement", "label": "Enhancement (Adding to existing product)"},
+        {"value": "redesign", "label": "Redesign (Major overhaul)"},
+        {"value": "migration", "label": "Migration (Platform/technology change)"}
+      ]
+    },
+    "industry": {
+      "description": "Industry or domain",
+      "options": [
+        {"value": "fintech", "label": "Financial Technology"},
+        {"value": "healthcare", "label": "Healthcare"},
+        {"value": "education", "label": "Education"},
+        {"value": "ecommerce", "label": "E-commerce"},
+        {"value": "saas", "label": "Software as a Service"},
+        {"value": "gaming", "label": "Gaming"},
+        {"value": "social", "label": "Social Media"},
+        {"value": "productivity", "label": "Productivity Tools"},
+        {"value": "enterprise", "label": "Enterprise Software"},
+        {"value": "consumer", "label": "Consumer Products"},
+        {"value": "government", "label": "Government/Public Sector"},
+        {"value": "other", "label": "Other"}
+      ]
+    },
+    "timeline": {
+      "description": "Expected project timeline",
+      "options": [
+        {"value": "1-4_weeks", "label": "1-4 weeks (Sprint/Quick feature)"},
+        {"value": "1-3_months", "label": "1-3 months (Small project)"},
+        {"value": "3-6_months", "label": "3-6 months (Medium project)"},
+        {"value": "6-12_months", "label": "6-12 months (Large project)"},
+        {"value": "1_year_plus", "label": "1+ years (Major initiative)"}
+      ]
+    }
+  }
+}
